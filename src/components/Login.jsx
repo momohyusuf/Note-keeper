@@ -56,6 +56,8 @@ https://note-saver-api.herokuapp.com/api/v1/authorize/login`,
         const data = await response.data;
         const { firstName, lastName, token } = data;
         localStorage.setItem('token', JSON.stringify(token));
+        localStorage.setItem('firstName', JSON.stringify(firstName));
+        localStorage.setItem('lastName', JSON.stringify(lastName));
         dispatch(updateFirstName(firstName));
         dispatch(updateLastName(lastName));
         dispatch(updateIsLoading(false));

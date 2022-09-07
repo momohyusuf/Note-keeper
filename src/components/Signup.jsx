@@ -74,6 +74,8 @@ https://note-saver-api.herokuapp.com/api/v1/authorize/register`,
         dispatch(updateFirstName(firstName));
         dispatch(updateLastName(lastName));
         dispatch(updateIsLoading(false));
+        localStorage.setItem('firstName', JSON.stringify(firstName));
+        localStorage.setItem('lastName', JSON.stringify(lastName));
         localStorage.setItem('token', JSON.stringify(token));
         navigate('/notes');
       } catch (error) {

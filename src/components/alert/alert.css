@@ -1,0 +1,13 @@
+.alert--box {
+  background-color: darkred;
+  color: white;
+  position: fixed;
+  z-index: 1000;
+  top: 50px;
+  width: 100%;
+  max-width: 15em;
+  text-align: center;
+  box-shadow: var(--light-shadow);
+  border-radius: 5px;
+  padding: 1em;
+}

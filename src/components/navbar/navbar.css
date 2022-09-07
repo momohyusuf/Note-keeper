@@ -1,0 +1,15 @@
+nav {
+  box-shadow: var(--light-shadow);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0.5em;
+}
+nav input[type='text'] {
+  width: 50%;
+}
+nav p {
+  font-weight: 500;
+}

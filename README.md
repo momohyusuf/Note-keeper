@@ -60,8 +60,8 @@ Users should be able to:
 
 ### Continued development
 
-- improving my knowledge on Node.js, MongoDB as i build more fun projects.
-- improving my knowledge on React
+- improve my knowledge on Node.js and MongoDB as i build more fun projects.
+- improve my knowledge on React
 
 ### Useful resources
 

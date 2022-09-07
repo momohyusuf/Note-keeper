@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Note Keeper]
+- Live Site URL: [Note Keeper] (https://note-keeperr.netlify.app)
 
 ## My process
 

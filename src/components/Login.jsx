@@ -115,10 +115,10 @@ https://note-saver-api.herokuapp.com/api/v1/authorize/login`,
           }}
           onClick={handleSubmit}
         >
-          Login {isLoading && <SmallSpinner />}
+          Log in {isLoading && <SmallSpinner />}
         </button>
         <p style={{ textAlign: 'center' }}>
-          Don't have an account yet? <Link to="/signup">Sing Up</Link>
+          Don't have an account yet? <Link to="/signup">Sign Up</Link>
         </p>
       </form>
     </section>

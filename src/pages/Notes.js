@@ -84,7 +84,7 @@ function Notes() {
       <div>
         <Navbar firstName={firstName} lastName={lastName} />
         <div className="no--note--created">
-          <h4>You have'nt created any note yet </h4>
+          <h4>You haven't created any note yet </h4>
           <button onClick={createNoteRouterLink}>Get Started</button>
         </div>
       </div>

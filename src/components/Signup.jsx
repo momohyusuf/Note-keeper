@@ -100,7 +100,7 @@ https://note-saver-api.herokuapp.com/api/v1/authorize/register`,
     <section className="content--container">
       {showAlert && <Alert text={verificationMessage} />}
       <form>
-        <label htmlFor="firstName">Firstname</label>
+        <label htmlFor="firstName">First Name</label>
         <input
           type="text"
           name="firstName"
@@ -114,7 +114,7 @@ https://note-saver-api.herokuapp.com/api/v1/authorize/register`,
             first name is required should not be less that 3 characters
           </small>
         )}
-        <label htmlFor="lastName">Lastname</label>
+        <label htmlFor="lastName">Last Name</label>
         <input
           type="text"
           name="lastName"
@@ -185,7 +185,7 @@ https://note-saver-api.herokuapp.com/api/v1/authorize/register`,
           {isLoading && <SmallSpinner />}
         </button>
         <p style={{ textAlign: 'center' }}>
-          Already have an account? <Link to="/login">Login here</Link>
+          Already have an account? <Link to="/login">Log in</Link>
         </p>
       </form>
     </section>

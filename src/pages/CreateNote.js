@@ -22,10 +22,9 @@ import {
 } from '../features/note/noteSlice';
 import parse from 'html-react-parser';
 import MarkdownView from 'react-showdown';
-import Spinner from '../components/spinner/Spinner';
 
 function CreateNote() {
-  const { isLoading, showAlert, editNote } = useSelector((state) => state.note);
+  const { showAlert, editNote } = useSelector((state) => state.note);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const toolbarSettings = {
@@ -125,8 +124,7 @@ function CreateNote() {
         <div>
           <MarkdownView
             markdown={parse(
-              (editNote.editing && editNote.note) ||
-                'Create note erase this text 😊 '
+              (editNote.editing && editNote.note) || 'Write a note here 😊 '
             )}
           />
         </div>

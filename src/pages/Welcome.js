@@ -28,11 +28,11 @@ function Welcome() {
         <section>
           <NavLink style={style} to="signup">
             {' '}
-            SignUp
+            Sign Up
           </NavLink>
           <span>/</span>
           <NavLink style={style} to="login">
-            Login
+            Log In
           </NavLink>
         </section>
       </section>

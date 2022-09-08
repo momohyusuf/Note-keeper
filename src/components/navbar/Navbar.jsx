@@ -23,7 +23,7 @@ function Navbar({ firstName, lastName }) {
         />
         <div>
           <p style={{ textTransform: 'capitalize' }}>
-            Welcome {firstName.slice(0, 1)}. {lastName}
+            {firstName.slice(0, 1)}. {lastName}
           </p>
           <button
             style={{ marginTop: '0.3em', padding: '0.3rem' }}

@@ -65,7 +65,7 @@ function CreateNote() {
     dispatch(updateIsLoading(true));
     try {
       await axios.post(
-        'https://note-saver-api.herokuapp.com/api/v1/notes',
+        'https://note-saver.onrender.com/api/v1/notes',
 
         { note: `${textValue}` },
         {

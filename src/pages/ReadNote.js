@@ -11,7 +11,7 @@ import { AiFillEdit } from 'react-icons/ai';
 import { editingNote } from '../features/note/noteSlice';
 import Spinner from '../components/spinner/Spinner';
 
-const url = 'https://note-saver-api.herokuapp.com/api/v1/notes';
+const url = 'https://note-saver.onrender.com/api/v1/notes';
 
 function ReadNote() {
   const { noteId } = useParams();

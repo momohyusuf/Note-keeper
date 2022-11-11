@@ -66,7 +66,7 @@ function Signup() {
         dispatch(updateIsLoading(true));
         const response = await axios.post(
           `
-https://note-saver-api.herokuapp.com/api/v1/authorize/register`,
+https://note-saver.onrender.com/api/v1/authorize/register`,
           formData
         );
         const data = await response.data;

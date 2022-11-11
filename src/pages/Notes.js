@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 import Spinner from '../components/spinner/Spinner';
 import { updateIsLoading } from '../features/note/noteSlice';
 
-const url = 'https://note-saver-api.herokuapp.com/api/v1/notes';
+const url = 'https://note-saver.onrender.com/api/v1/notes';
 
 function Notes() {
   const [userNotes, setUserNotes] = useState(null);

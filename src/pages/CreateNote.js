@@ -90,7 +90,7 @@ function CreateNote() {
     dispatch(updateIsLoading(true));
     try {
       await axios.patch(
-        `https://note-saver-api.herokuapp.com/api/v1/notes/${editNote.id}`,
+        `https://note-saver.onrender.com/api/v1/notes/${editNote.id}`,
 
         { note: `${textValue}` },
         {
